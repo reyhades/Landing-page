@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fondo.jpg);
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 98.5%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+  }
+
+  #cubo {
+    width: 97%;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #666;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .menu-comida {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 300px;
+    width: 96%;
+  }
+
+  .precio {
+    position: relative;
+    left: 1000px;
+    bottom: 10px;
+    width: 90px;
+    height: 10px;
+  }
+
+  #menu {
+    padding: 0px;
+    margin: 0px;
+    height: 80px;
+    width: 800px;
+    position: relative;
+    bottom: -15px;
+    left: 320px;
+}
+
+ul, ol{
+    list-style:none;
+}
+
+.nav li a {
+      background-color: #000;
+      color: #ffff;
+      text-decoration:none;
+      padding: 15px 140px;
+      display: block;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+#info {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: -300px;
+}
+
+#kale {
+   position: relative;
+   width: 140px;
+   height: 140px;
+   left: 150px;
+   bottom: 140px;
+}
+
+#kale img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+#hambu {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  left: 1000px;
+  bottom: 280px;
+}
+
+#hambu img {
+  width: 100%;
+  height: 100%;
+}
+
+#copy {
+  background: #cfd3d7;
+  position: relative;
+  top: 17px;
+  border-radius: 9px solid white;
+  width: 100%;
+}
+
+.cupon {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+  left: 110px;
+}
+
+#maps {
+  width: 100%;
+  background-color: #000;
+  height: 600px;
+  position: relative;
+  bottom: 280px;
+}
+
+
+#follow {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  left: 100px;
+  top: 110px;
+  color: white;
+}
+
+#map {
+  height: 400px;
+  width: 50%;
+  position: relative;
+  left: 600px;
+  border: 2px solid white ;
+  top: -40px;
+}
